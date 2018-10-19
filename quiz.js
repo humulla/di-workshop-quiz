@@ -24,10 +24,10 @@ function startGame() {
 
 function AskQuestion(question, correctAnswer) {
     var userAnswer = prompt(question);
-    if(userAnswer.toLowerCase == correctAnswer.toLowerCase()) {
+    if(userAnswer.toLowerCase() == correctAnswer.toLowerCase()) {
        score++
     } else {
-        alert("The answer was" +correctAnswer.toLowerCase)
+        alert("The answer was " +AnswerOne)
     }
 
 } // this is the end of the AskQuestion function
