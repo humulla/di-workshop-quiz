@@ -9,9 +9,14 @@ var answers = ["a", "a", "b"]
 function startGame() {
     // get the user's name
     username = prompt("Welcome to the General quiz, What is your name?")
-    AskQuestion(questions[0], answers[0])
-    AskQuestion(questions[1], answers[1]) 
-    AskQuestion(questions[2], answers[2])
+    // AskQuestion(questions[0], answers[0])
+    // AskQuestion(questions[1], answers[1]) 
+    // AskQuestion(questions[2], answers[2])
+    for(var i = 0; i < questions.length; i++) {
+        
+        AskQuestion(questions[i], answers[i])
+
+    }
     
 //     alert(username) 
 //     userAnswerOne = prompt("Welcome, " +username+". Your first question is:" + QuestionOne);
